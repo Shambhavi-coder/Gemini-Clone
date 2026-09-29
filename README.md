@@ -1,8 +1,61 @@
-# React + Vite
+# Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive AI chat application inspired by Google Gemini, built using React and powered by the Gemini API.
 
-Currently, two official plugins are available:
+The application provides a conversational interface where users can enter prompts and receive AI-generated responses. The Gemini API is accessed securely through a Netlify serverless function so that the API key is not exposed in the frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+
+[Live Demo](YOUR_NETLIFY_URL)
+
+## 📌 Features
+
+- 🤖 AI-powered chat using Google Gemini
+- 💬 Interactive conversational interface
+- ⚡ Fast and responsive React UI
+- 📱 Responsive design
+- 📝 Dynamic prompt and response handling
+- 🔐 Secure API key handling using Netlify Functions
+- 🌐 Deployable on Netlify
+- 🎨 Gemini-inspired user interface
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend / API
+- Netlify Functions
+- Google Gemini API
+
+### Tools
+- Git & GitHub
+- npm
+- Netlify
+
+## 🏗️ Architecture
+
+The application follows a simple frontend + serverless backend architecture:
+
+```text
+User
+  │
+  ▼
+React / Vite Frontend
+  │
+  │ POST / prompt
+  ▼
+Netlify Serverless Function
+  │
+  │ GEMINI_API_KEY
+  ▼
+Google Gemini API
+  │
+  ▼
+AI Response
+  │
+  ▼
+React UI
