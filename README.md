@@ -4,9 +4,6 @@ A responsive AI chat application inspired by Google Gemini, built using React an
 
 The application provides a conversational interface where users can enter prompts and receive AI-generated responses. The Gemini API is accessed securely through a Netlify serverless function so that the API key is not exposed in the frontend.
 
-## 🚀 Live Demo
-
-[Live Demo](YOUR_NETLIFY_URL)
 
 ## 📌 Features
 
